@@ -1,6 +1,6 @@
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
-  RETURN (
+  RETURN (git init
       SELECT salary
       FROM (
           SELECT salary,
